@@ -1,6 +1,7 @@
 name: Daily Health Check
 
 on:
+  push:
   schedule:
     # Runs every 10 minutes
     - cron: '*/10 * * * *'
