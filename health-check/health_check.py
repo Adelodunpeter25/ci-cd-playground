@@ -2,7 +2,7 @@ import requests
 import sys
 
 def check_health():
-    api_endpoint = "https://resumade-api.onrender.com/health"
+    api_endpoint = "https://content-hub-api.vercel.app/health"
     
     try:
         response = requests.get(api_endpoint, timeout=30)
